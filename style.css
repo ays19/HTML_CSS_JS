@@ -1,0 +1,49 @@
+          span{
+              color: blue;
+          }
+          #x{
+            list-style-type: square;
+          }
+          #y{
+             /* list-style-image: url('download.png');   */
+          }
+
+          #p{
+            color: blueviolet;
+            background-color: aqua;
+            display: inline ;
+            width: 300px;
+            border: 8px solid green;
+            /* padding: 5px ; */
+            padding-left: 10px;
+            margin: 30px;;
+          }
+          img{
+            /* filter: grayscale(50%); */
+            opacity: 1;
+          }
+          #xy {
+            background-image: url("photo_2024-09-12_14-26-23.jpg");
+            /* background-size: 700px 200px; */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: rgb(249, 252, 252);
+            filter: saturate(1);
+            text-shadow: -2px 2px 0 #000000,
+                              2px 2px 0 #000000,
+                              2px -2px 0 #000000,
+                              -2px -2px 0 #000000;
+            transition: 500ms ease-in;                  
+          }
+
+          #picture {
+            filter: saturate(0);
+            transition: 800ms ease-in;
+          }
+
+          #picture:hover {
+            filter: saturate(1);
+            transition: 400ms ease-in;
+          } 
